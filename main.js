@@ -19,5 +19,4 @@ function display(map) {
 let x = 0;
 
 display(map);
-question('Lines : ')
-question('Matches : ')
+question()
