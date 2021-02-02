@@ -1,19 +1,17 @@
 const readline = require('readline');
 
-function demande() {
+function LM_question() {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
   });
   
-  rl.question("Lines : ", (answer) => {
-    console.log(answer);
+  const lines = rl.question("Lines : ", (answer) => {
     rl.close();
   });
-  rl.question("Matches : ", (answer) => {
-    console.log(answer);
+  const matches = rl.question("Matches : ", (answer) => {
     rl.close();
   });
 }
 
-module.exports = demande;
+module.exports = LM_question;

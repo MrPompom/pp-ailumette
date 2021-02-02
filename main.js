@@ -1,5 +1,4 @@
-const question = require('./question.js')
-
+const question = require('./question')
 
 const map = [
     ["*", "*", "*", "*", "*", "*", "*", "*", "*"],
